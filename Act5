@@ -1,0 +1,5 @@
+cat1 = input("Cateto: ")
+cat2 = input("Cateto: ")
+hip = (cat1**2 + cat2**2)**(.5)
+per = round(cat1 + cat2 + hip, 2)
+print("Perimetro: " + str(per))
